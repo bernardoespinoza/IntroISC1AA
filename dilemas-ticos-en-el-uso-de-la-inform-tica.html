@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html amp>
+<head>
+<meta charset='utf-8'>
+<title>Transforma la forma en la que aprendes | Conjunto de Diapositivas</title>
+<meta content='chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='learning, study' itemprop='educationalUse' name='educationalUse'>
+<meta content='mixed' itemprop='interactivityType' name='interactivityType'>
+<meta content='true' itemprop='isFamilyFriendly' name='isFamilyFriendly'>
+<meta content='telephone=no' name='format-detection'>
+<link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
+<link href='/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60'>
+<link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+<link href='/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76'>
+<link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+<link href='/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120'>
+<link href='/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144'>
+<link href='/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152'>
+<link href='/apple-touch-icon-180x180.png' rel='apple-touch-icon' sizes='180x180'>
+<link href='/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png'>
+<link href='/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png'>
+<link href='/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png'>
+<link href='/android-chrome-192x192.png' rel='icon' sizes='192x192' type='image/png'>
+<link href='//fastlane.rubiconproject.com/' rel='dns-prefetch'>
+<meta content='/smalltile.png' name='msapplication-square70x70logo'>
+<meta content='/mediumtile.png' name='msapplication-square150x150logo'>
+<meta content='/widetile.png' name='msapplication-wide310x150logo'>
+<meta content='/largetile.png' name='msapplication-square310x310logo'>
+<link href='/manifest.json' rel='manifest'>
+
+
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" nonce="0w5RI7NLOuaDC3SjjMQ5CA==" async=true>
+  (function() {
+    var host = 'goconqr.com';
+    var element = document.createElement('script');
+    var firstScript = document.getElementsByTagName('script')[0];
+    var url = 'https://quantcast.mgr.consensu.org'
+      .concat('/choice/', 'xVCZkU_vQprcQ', '/', host, '/choice.js')
+    var uspTries = 0;
+    var uspTriesLimit = 3;
+    element.async = true;
+    element.type = 'text/javascript';
+    element.src = url;
+
+    firstScript.parentNode.insertBefore(element, firstScript);
+
+    function makeStub() {
+      var TCF_LOCATOR_NAME = '__tcfapiLocator';
+      var queue = [];
+      var win = window;
+      var cmpFrame;
+
+      function addFrame() {
+        var doc = win.document;
+        var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+        if (!otherCMP) {
+          if (doc.body) {
+            var iframe = doc.createElement('iframe');
+
+            iframe.style.cssText = 'display:none';
+            iframe.name = TCF_LOCATOR_NAME;
+            doc.body.appendChild(iframe);
+          } else {
+            setTimeout(addFrame, 5);
+          }
+        }
+        return !otherCMP;
+      }
+
+      function tcfAPIHandler() {
+        var gdprApplies;
+        var args = arguments;
+
+        if (!args.length) {
+          return queue;
+        } else if (args[0] === 'setGdprApplies') {
+          if (
+            args.length > 3 &&
+            args[2] === 2 &&
+            typeof args[3] === 'boolean'
+          ) {
+            gdprApplies = args[3];
+            if (typeof args[2] === 'function') {
+              args[2]('set', true);
+            }
+          }
+        } else if (args[0] === 'ping') {
+          var retr = {
+            gdprApplies: gdprApplies,
+            cmpLoaded: false,
+            cmpStatus: 'stub'
+          };
+
+          if (typeof args[2] === 'function') {
+            args[2](retr);
+          }
+        } else {
+          queue.push(args);
+        }
+      }
+
+      function postMessageEventHandler(event) {
+        var msgIsString = typeof event.data === 'string';
+        var json = {};
+
+        try {
+          if (msgIsString) {
+            json = JSON.parse(event.data);
+          } else {
+            json = event.data;
+          }
+        } catch (ignore) {}
+
+        var payload = json.__tcfapiCall;
+
+        if (payload) {
+          window.__tcfapi(
+            payload.command,
+            payload.version,
+            function(retValue, success) {
+              var returnMsg = {
+                __tcfapiReturn: {
+                  returnValue: retValue,
+                  success: success,
+                  callId: payload.callId
+                }
+              };
+              if (msgIsString) {
+                returnMsg = JSON.stringify(returnMsg);
+              }
+              if (event && event.source && event.source.postMessage) {
+                event.source.postMessage(returnMsg, '*');
+              }
+            },
+            payload.parameter
+          );
+        }
+      }
+
+      while (win) {
+        try {
+          if (win.frames[TCF_LOCATOR_NAME]) {
+            cmpFrame = win;
+            break;
+          }
+        } catch (ignore) {}
+
+        if (win === window.top) {
+          break;
+        }
+        win = win.parent;
+      }
+      if (!cmpFrame) {
+        addFrame();
+        win.__tcfapi = tcfAPIHandler;
+        win.addEventListener('message', postMessageEventHandler, false);
+      }
+    };
+
+    makeStub();
+
+    var uspStubFunction = function() {
+      var arg = arguments;
+      if (typeof window.__uspapi !== uspStubFunction) {
+        setTimeout(function() {
+          if (typeof window.__uspapi !== 'undefined') {
+            window.__uspapi.apply(window.__uspapi, arg);
+          }
+        }, 500);
+      }
+    };
+
+    var checkIfUspIsReady = function() {
+      uspTries++;
+      if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+        console.warn('USP is not accessible');
+      } else {
+        clearInterval(uspInterval);
+      }
+    };
+
+    if (typeof window.__uspapi === 'undefined') {
+      window.__uspapi = uspStubFunction;
+      var uspInterval = setInterval(checkIfUspIsReady, 6000);
+    }
+  })();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+<link href='https://plus.google.com/+ExamtimeES' rel='publisher'>
+<script nonce="0w5RI7NLOuaDC3SjjMQ5CA==">
+  var USER_COUNTRY_CODE = '';
+  var CURRENT_USER = null;
+</script>
+
+<link href='https://www.goconqr.com/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' rel='canonical'>
+<meta content='Presentación' name='description'>
+<meta content='Elka Méndez' name='author'>
+<meta content='https://www.goconqr.com/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' property='og:url'>
+<meta content='GoConqr' property='og:site_name'>
+<meta content='GoConqr - Dilemas éticos en el uso de la informática' property='og:title'>
+<meta content='Presentación' property='og:description'>
+<meta content='https://cdn.goconqr.com/assets/ogp/slideset-ed6dadaa8c5cf3e5079e6e446063f94e386838f350526fde21e20ae5a4adadb0.png' property='og:image'>
+<meta content='220' property='og:image:width'>
+<meta content='220' property='og:image:height'>
+<meta content='website' property='og:type'>
+<meta content='index,follow' name='robots'>
+
+<link href='https://www.goconqr.com/en/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' hreflang='en' rel='alternate'>
+<link href='https://www.goconqr.com/es/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' hreflang='es' rel='alternate'>
+<link href='https://www.goconqr.com/pt/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' hreflang='pt' rel='alternate'>
+<link href='https://www.goconqr.com/de/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' hreflang='de' rel='alternate'>
+<link href='https://www.goconqr.com/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' hreflang='x-default' rel='alternate'>
+
+<script type="application/ld+json">    
+  {"@context":"http://schema.org","@type":"LearningResource","name":"Dilemas éticos en el uso de la informática","description":"Presentación","learningResourceType":"Diapositivas","educationalAlignment":[{"@type":"AlignmentObject","alignmentType":"educationalSubject","targetName":"Etica en el uso de la tecnología"},{"@type":"AlignmentObject","alignmentType":"educationalSubject","targetName":"General"}],"educationalLevel":"1","typicalAgeRange":"1","inLanguage":{"@type":"Language","name":"es"},"author":{"@type":"Person","name":"Elka Méndez"},"dateModified":"2016-11-07T00:31:41Z","dateCreated":"2016-07-09T18:35:57Z","encodingFormat":"text/html","text":"Diapositiva 1 Ética e informática 0328cc90-ac98-40e1-87b2-9c6654e08050 (image/png) Pie de foto: : El dilema ético del uso de la tecnología Diapositiva 2 El desarrollo de los sistemas informáticos y del Internet como una red de información que contiene millones de datos que no son regulados, al ser utilizados por las personas existe la posibilidad de un uso no ético de éstos. Su uso cada vez más intensivo ha generado nuevos dilemas éticos. d6be948e-64d3-4702-b2af-71b7aee32ab7.gif (image/gif) Diapositiva 3 Para dilucidar estos dilemas es necesario partir de un marco conceptual proporcionado por la ética aplicada al campo de la tecnología.La ética informática: Es el análisis de la naturaleza y el impacto social de la tecnología informática y la correspondiente formulación y justificación de políticas para un uso ético de dicha tecnología; esta definición está relacionada con los problemas conceptuales y los vacíos en las regulaciones que ha ocasionado la tecnología de la información.Por esto la necesidad de establecer códigos de ética para el uso de la tecnología y la informática. 8c21336d-839d-4bcf-b9d3-ce3f21a37fb9.gif (image/gif) Diapositiva 4 Este código de ética debe contemplarse desde dos perspectivas: una para los expertos que generan los sistemas y tienen la posibilidad de manipular la información y otra, para quienes los consultan y utilizan. ¿La internet debe o no ser regulada? c9e855a7-5ea9-4e3a-aaf5-4b4e11b4d7cb.gif (image/gif) Diapositiva 5 Hay quienes afirman que la sobre regulación del Internet atenta en contra de la libertad de las personas; pero ¿qué pasa cuando esta libertad se utiliza para dañar a otros? Una directriz para concebir un código de ética para el uso de la informática y del Internet puede ser regular la tecnología para permitir que se fortalezcan nuestros derechos y se eviten los abusos partiendo de cuatro principios éticos clave: Intimidad exactitud Propiedad intelectual Accesibilidad Diapositiva 6 Se pueden observar algunos principios básicos para regular el uso del Internet. No utilizar una computadora para dañar a otros. No indagar en los archivos ajenos. No utilizar una computadora para robar. No utilizar la informática para realizar fraudes. No copiar o utilizar software que no hayas comprado. No utilizar los recursos informáticos ajenos sin la debida autorización. No apropiarse de los derechos intelectuales de otros. Evaluar las consecuencias sociales de cualquier código que desarrolles. Utilizar las computadoras respetando los derechos de los demás. Diapositiva 7 Internet debe servir a la gente en su ejercicio responsable de la libertad y la democracia, ampliar la gama de opciones realizables en diversas esferas de la vida, ensanchar los horizontes educativos y culturales, superar las divisiones y promover el desarrollo humano de múltiples modos. Como cualquier tecnología, los medios informáticos no son buenos ni malos, sí lo pueden ser las intenciones de las personas que los utilizan. 6dd0e295-5835-41d0-8c55-f25478a9fba4 (image/jpg) Diapositiva 8 Actuar con conciencia y formar la las nuevas generaciones en una sabiduría digital es indispensable para autoregularnos para un uso ético de la tecnología a partir de los siguientes conceptos: Netiquetta: Normas básicas de comportamiento en el ciber espacio. Netica: Criterios morales de la conducta en el ciber espacio. Huella digital: Datos personales que vamos dejando en el ciber espacio. Seguridad: Prácticas en el uso de la tecnología. 2178fdd2-b6aa-462a-842c-2d4cd1e81a59.gif (image/gif) Diapositiva 9 Recursos consultados Castellón Beltrán, Aimel. 2006. Ética e Informática: factores claves del mundo moderno. Plusformación. Consultado en: https://upaep.blackboard.com/bbcswebdav/courses/25_102_MEL703_01/plusformacion.com-tica_e_Informtica_factores_claves_del_mundo_moderno.pdf. Fecha de la consulta, 09 de julio de 2016.Lara, J.C. 2016. Internet en México: Derechos Humanos en el entorno digital. Derechos Digitales. México. Consultado en: https://derechosdigitales.org/ Fecha de la consulta, 09 de julio de 2016.Molla, I. (2012) Acercamiento a la Comprensión de la Sabiduría Digital, Informe Técnico. Pontificia Universidad Católica del Perú. Consultado en: http://avatar.inf.pucp.edu.pe/web/wordpress/wp-content/uploads/2013/07/Informe_Sabio_Digital.pdf Fecha de la consulta, 09 de julio de 2016. Prensky, M. (2009) H. Sapiens Digital: Desde los Inmigrantes y Nativos Digitales hasta la Sabiduría Digital. Consultado en: https://upaep.blackboard.com/bbcswebdav/pid-6894180-dt-content-rid-17742284_2/courses/25_111_MEL703_01/digitalwisdomtranslatedtospanishbymarianaaffronti-090622224955-phpapp02.pdf Fecha de la consulta, 09 de julio de 2016.","url":"https://www.goconqr.com/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica","thumbnailUrl":"https://cdn.goconqr.com/uploads/slide_property/image/552010/thumb_d6be948e-64d3-4702-b2af-71b7aee32ab7.gif","interactionStatistic":[{"@type":"InteractionCounter","interactionType":"http://schema.org/ViewAction","userInteractionCount":"164"},{"@type":"InteractionCounter","interactionType":"http://schema.org/OrganizeAction","userInteractionCount":"0"},{"@type":"InteractionCounter","interactionType":"http://schema.org/CommentAction","userInteractionCount":"0"}]}
+</script>
+
+
+<link rel="stylesheet" media="all" href="https://cdn.goconqr.com/assets/application-resource-canonical-665153a840c87d543eeb2cf1758f290a4f6f20acd7d578b71a34b71aaff88a07.css" />
+<link rel="stylesheet" media="print" href="https://cdn.goconqr.com/assets/application-print-1cda5af726ef8bf3f53af93e8c3aaaaecc19f501fee5670ba0f26aa2d846894d.css" />
+<script nonce="0w5RI7NLOuaDC3SjjMQ5CA==">
+  I18n_settings                    = {}
+  I18n_settings.defaultLocale      = "en";
+  I18n_settings.locale             = "es-ES";
+  I18n_settings.fallbacks          = true;
+  I18n_settings.date_format        = "dd/mm/yy";
+  I18n_settings.dayjs_date_format  = "DD/MM/YYYY";
+</script>
+<script src="https://cdn.goconqr.com/assets/i18n_js/manifest-3db21ad905d8660e34603869918a932c009d87f5e31e92aecd3a5ec64f225e95.js" nonce="0w5RI7NLOuaDC3SjjMQ5CA=="></script>
+<script src="https://cdn.goconqr.com/assets/i18n_translations/es/manifest-46538bc10d5035e6c88b0fbd4422d29ad3794688774f1f8d9a8bf1650322e366.js" nonce="0w5RI7NLOuaDC3SjjMQ5CA=="></script>
+
+<script src="https://cdn.goconqr.com/prebid_build.js" nonce="0w5RI7NLOuaDC3SjjMQ5CA=="></script>
+<script src="https://cdn.goconqr.com/assets/application-resource-canonical-5106bc9b61ba03c0c3cdb33435cd2cab95b1a4bf846a0584016327fe56fb0a80.js" nonce="0w5RI7NLOuaDC3SjjMQ5CA=="></script>
+<script nonce="0w5RI7NLOuaDC3SjjMQ5CA==">
+  RAILS_ENV = "production";
+  
+  $(document).ready(function() {
+    Routes = (function(routes) {
+      routes.canonical_resource_path = function(options) {
+        var id = options.id, type = options.type;
+  
+        if ( id && type ) {
+          return Routes["canonical_" + type.toUnderscore() + "_path"].apply(Routes, [_.extend(_.omit(options, "type"), {_options: true })]);
+        } else {
+          throw new Error("Route parameter (:id or :type) missing");
+        }
+      };
+  
+      routes.options = {};
+  
+      return routes;
+    })( Routes || {} );
+  
+    Routes.configure({
+      default_url_options: {
+        locale: "es-ES"
+      }
+    });
+  
+  });
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="PtLLYI11BUuFJOgSXR16u/4onlHcYIMv2HIpcotUANK7Bhsi/Jj2gOYElDGDIPikQiL26X20r6Rigz09nevUEg==" />
+
+<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+</head>
+<body class='canonical es'>
+
+  <script async
+    nonce="0w5RI7NLOuaDC3SjjMQ5CA=="
+    src="https://www.googletagmanager.com/gtag/js?id=UA-34963630-1"></script>
+  <script nonce="0w5RI7NLOuaDC3SjjMQ5CA==">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-34963630-1', {
+      send_page_view: false
+    });
+
+      gtag('event', 'page_view', {
+        page_path: '/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica'
+      })
+  </script>
+
+
+<div id='wrap'>
+<div class='navbar no-print navbar-fixed-top' id='examtime_header'>
+<div class='container'>
+<div class='logo_container'>
+<a href='/es-ES'>
+<div class='logo_loggedout'>
+<img alt="Logotipo de GoConqr" src="https://cdn.goconqr.com/assets/goconqr/logo_sign_in_modal-2bdda9a48c8bdd8a95736ae2ae612da157467c321b3290ec90de82bfa8dbd39e.png" />
+</div>
+</a>
+</div>
+<div class='nav-tooltip' id='search_nav' title='Buscar'>
+<i class='icon-search' title='Buscar'></i>
+</div>
+<div class='unauthenticated' id='search_div'>
+<form class="main_search_form" data-turboform="true" action="/es-ES/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+<div class='search_field_container'><input autocomplete='off' class='typeahead site_search search_field' id='q' name='q' placeholder='Busca contenido, personas o grupos' type='text' value=''><div class='mainsearch btn search_button'>
+<i class='icon-search' title='Buscar'></i>
+</div>
+</div>
+</form>
+
+</div>
+
+<div class='navbar-nav navbar-right header_signin'>
+<ul>
+<li>
+<button class='btn btn-link navbar-btn' id='sign_in'>
+Iniciar Sesión
+</button>
+</li>
+<li>
+<a id="sign_up" rel="nofollow" href="/es-ES/users/sign_up"><button class='btn navbar-btn btn-success'>
+<span class='long'>Regístrate Gratis</span>
+<span class='short'>Registro</span>
+</button>
+</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+
+<div id='et_loading_spinner' style='display: none'></div>
+
+<div class='contents_wrap'>
+
+<section id='content'>
+<noscript>
+<div class='alert alert-danger'>
+Hemos detectado que no tienes habilitado Javascript en tu navegador. La naturaleza dinámica de nuestro sitio requiere que Javascript esté habilitado para un funcionamiento adecuado.
+Por favor lee nuestros <a href='/terms_and_conditions' target='_blank'>términos y condiciones</a> para más información.
+</div>
+</noscript>
+</section>
+
+<div class='with_ads' id='canonical_wrapper'>
+<div class='upper_wrapper'>
+<div class='container main'>
+<div class='ad_section mid_left'>
+<div class='ad_unit hidden'>
+{&quot;ad_unit_id&quot;:&quot;App_Resource_Sidebar_Upper&quot;,&quot;resource&quot;:{&quot;id&quot;:5862552,&quot;author_id&quot;:2008038,&quot;title&quot;:&quot;Dilemas éticos en el uso de la informática&quot;,&quot;created_at&quot;:&quot;2016-07-09T18:35:57Z&quot;,&quot;updated_at&quot;:&quot;2016-11-07T00:31:41Z&quot;,&quot;sample&quot;:false,&quot;description&quot;:&quot;Presentación&quot;,&quot;alerts_enabled&quot;:true,&quot;cached_tag_list&quot;:&quot;tecnología, ética, etica y tecnología&quot;,&quot;deleted_at&quot;:null,&quot;hidden&quot;:false,&quot;average_rating&quot;:null,&quot;demote&quot;:false,&quot;private&quot;:false,&quot;copyable&quot;:true,&quot;score&quot;:31,&quot;artificial_base_score&quot;:0,&quot;recalculate_score&quot;:false,&quot;profane&quot;:false,&quot;hide_summary&quot;:false,&quot;tag_list&quot;:[&quot;tecnología&quot;,&quot;ética&quot;,&quot;etica y tecnología&quot;],&quot;admin_tag_list&quot;:[],&quot;study_aid_type&quot;:&quot;SlideSet&quot;,&quot;show_path&quot;:&quot;/slide_sets/5862552&quot;,&quot;folder_id&quot;:5038048,&quot;public_author&quot;:{&quot;id&quot;:2008038,&quot;profile&quot;:{&quot;name&quot;:&quot;Elka Mendez&quot;,&quot;about&quot;:null,&quot;avatar_service&quot;:&quot;facebook&quot;,&quot;locale&quot;:&quot;es-ES&quot;,&quot;google_author_link&quot;:null,&quot;user_type_id&quot;:241,&quot;escaped_name&quot;:&quot;Elka Méndez&quot;,&quot;full_name&quot;:&quot;Elka Méndez&quot;,&quot;badge_classes&quot;:&quot;&quot;}}},&quot;width&quot;:300,&quot;height&quot;:250,&quot;rtype&quot;:&quot;SlideSet&quot;,&quot;rmode&quot;:&quot;canonical&quot;,&quot;sizes&quot;:&quot;[[[0, 0], [[300, 250]]]]&quot;,&quot;custom&quot;:[{&quot;key&quot;:&quot;rsubject&quot;,&quot;value&quot;:&quot;Etica en el uso de la tecnología&quot;},{&quot;key&quot;:&quot;rlevel&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;env&quot;,&quot;value&quot;:&quot;production&quot;},{&quot;key&quot;:&quot;rtype&quot;,&quot;value&quot;:&quot;SlideSet&quot;},{&quot;key&quot;:&quot;rmode&quot;,&quot;value&quot;:&quot;canonical&quot;},{&quot;key&quot;:&quot;sequence&quot;,&quot;value&quot;:1},{&quot;key&quot;:&quot;uauth&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;uadmin&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;ulang&quot;,&quot;value&quot;:&quot;es&quot;},{&quot;key&quot;:&quot;ucurrency&quot;,&quot;value&quot;:&quot;usd&quot;}]}
+</div>
+</div>
+<iframe allowfullscreen class='resource' mozallowfullscren name='resource' src='/es-ES/p/5862552?canonical=true&amp;frame=true&amp;no_cache=true' webkitallowfullscreen></iframe>
+<div class='ad_section mid_right'>
+<div class='ad_unit hidden'>
+{&quot;ad_unit_id&quot;:&quot;App_Resource_Sidebar_Lower&quot;,&quot;resource&quot;:{&quot;id&quot;:5862552,&quot;author_id&quot;:2008038,&quot;title&quot;:&quot;Dilemas éticos en el uso de la informática&quot;,&quot;created_at&quot;:&quot;2016-07-09T18:35:57Z&quot;,&quot;updated_at&quot;:&quot;2016-11-07T00:31:41Z&quot;,&quot;sample&quot;:false,&quot;description&quot;:&quot;Presentación&quot;,&quot;alerts_enabled&quot;:true,&quot;cached_tag_list&quot;:&quot;tecnología, ética, etica y tecnología&quot;,&quot;deleted_at&quot;:null,&quot;hidden&quot;:false,&quot;average_rating&quot;:null,&quot;demote&quot;:false,&quot;private&quot;:false,&quot;copyable&quot;:true,&quot;score&quot;:31,&quot;artificial_base_score&quot;:0,&quot;recalculate_score&quot;:false,&quot;profane&quot;:false,&quot;hide_summary&quot;:false,&quot;tag_list&quot;:[&quot;tecnología&quot;,&quot;ética&quot;,&quot;etica y tecnología&quot;],&quot;admin_tag_list&quot;:[],&quot;study_aid_type&quot;:&quot;SlideSet&quot;,&quot;show_path&quot;:&quot;/slide_sets/5862552&quot;,&quot;folder_id&quot;:5038048,&quot;public_author&quot;:{&quot;id&quot;:2008038,&quot;profile&quot;:{&quot;name&quot;:&quot;Elka Mendez&quot;,&quot;about&quot;:null,&quot;avatar_service&quot;:&quot;facebook&quot;,&quot;locale&quot;:&quot;es-ES&quot;,&quot;google_author_link&quot;:null,&quot;user_type_id&quot;:241,&quot;escaped_name&quot;:&quot;Elka Méndez&quot;,&quot;full_name&quot;:&quot;Elka Méndez&quot;,&quot;badge_classes&quot;:&quot;&quot;}}},&quot;width&quot;:300,&quot;height&quot;:250,&quot;rtype&quot;:&quot;SlideSet&quot;,&quot;rmode&quot;:&quot;canonical&quot;,&quot;sizes&quot;:&quot;[[[0, 0], [[300, 250]]]]&quot;,&quot;custom&quot;:[{&quot;key&quot;:&quot;rsubject&quot;,&quot;value&quot;:&quot;Etica en el uso de la tecnología&quot;},{&quot;key&quot;:&quot;rlevel&quot;,&quot;value&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;env&quot;,&quot;value&quot;:&quot;production&quot;},{&quot;key&quot;:&quot;rtype&quot;,&quot;value&quot;:&quot;SlideSet&quot;},{&quot;key&quot;:&quot;rmode&quot;,&quot;value&quot;:&quot;canonical&quot;},{&quot;key&quot;:&quot;sequence&quot;,&quot;value&quot;:1},{&quot;key&quot;:&quot;uauth&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;uadmin&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;ulang&quot;,&quot;value&quot;:&quot;es&quot;},{&quot;key&quot;:&quot;ucurrency&quot;,&quot;value&quot;:&quot;usd&quot;}]}
+</div>
+</div>
+</div>
+<div id='next_up'>
+<a class='link'>
+<div class='heading'>
+<h3>Siguiente</h3>
+<div class='resource_type_icon'></div>
+</div>
+<p class='title'></p>
+<p class='author'></p>
+</a>
+</div>
+</div>
+<div class='lower_wrapper'>
+<div class='container main'>
+<div class='canonical_meta_section'>
+<div id='resource_meta_content'>
+<div class='actions_section boxed'>
+<div class='social_actions'>
+<div class='share_buttons'>
+<a class='social facebook' data-url='https://www.goconqr.com/slide/5862552/dilemas-ticos-en-el-uso-de-la-inform-tica' href='http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.goconqr.com%2Fslide%2F5862552%2Fdilemas-ticos-en-el-uso-de-la-inform-tica' target='_blank' title='Compartir en Facebook'>
+<div class='social_sprite bg-footer-icon_social_facebook_2x'></div>
+</a>
+<a class='social twitter' href='https://twitter.com/intent/tweet?text=Dilemas%20%C3%A9ticos%20en%20el%20uso%20de%20la%20inform%C3%A1tica%20&amp;url=https%3A%2F%2Fwww.goconqr.com%2Fslide%2F5862552%2Fdilemas-ticos-en-el-uso-de-la-inform-tica&amp;via=GoConqr_es' target='_blank' title='Compartir en Twitter'>
+<div class='social_sprite bg-footer-icon_social_twitter_2x'></div>
+</a>
+<a class='social linkedin' href='http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.goconqr.com%2Fslide%2F5862552%2Fdilemas-ticos-en-el-uso-de-la-inform-tica&amp;title=Dilemas%20%C3%A9ticos%20en%20el%20uso%20de%20la%20inform%C3%A1tica&amp;source=GoConqr' target='_blank' title='Compartir en LinkedIn'>
+<div class='social_sprite bg-footer-icon_social_linkedin_2x'></div>
+</a>
+</div>
+
+<span class='email_share'>
+<span class='canonical_sprite bg-canonical-email' title='Enviar un enlace a un amigo'></span>
+</span>
+<span class='social_share'>
+<span class='canonical_sprite bg-canonical-social' title='Enlazar en un blog o compartir en GoConqr'></span>
+</span>
+<span class='print'>
+<span class='canonical_sprite bg-canonical-print' title='Imprimir'></span>
+</span>
+</div>
+<div class='app_actions'>
+<span class='clone' title=''>
+<a class="btn btn-info copy_and_edit" href="#">Copiar y Editar</a>
+</span>
+</div>
+<div aria-hidden='true' class='modal' id='sign_up_message' role='dialog'>
+<div class='modal-dialog'>
+<div class='modal-cta modal-content'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='cta'>
+¡Debes iniciar sesión para completar esta acción!
+</div>
+<a target="_blank" class="btn btn-success btn-cta" href="/es-ES/users/sign_up">Regístrate gratis</a>
+<div class='cta-footer-text'>
+<a class='sign_in_call_to_action' data-locale='es-ES'>
+Inicia sesión aquí
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class='meta_details_section publicmeta boxed'>
+<div class='hidden'>
+<div id='study_aid_id'>5862552</div>
+<div id='current_user_is_author'></div>
+</div>
+<div class='titlebar'>
+<h1 class='study_aid_title' title='Dilemas éticos en el uso de la informática'>
+Dilemas éticos en el uso de la informática
+</h1>
+</div>
+<div class='content'>
+<div class='meta_row'>
+<div class='avatar_sidebar'>
+<div class='avatar'>
+<a href="/es-ES/profiles/2000677"><img width="45" height="45" alt="Elka Méndez" title="Elka Méndez" src="https://graph.facebook.com/v8.0/10204155530963390/picture?access_token=482943618401238|1adfc51b75ff64d81695a61fae69ba1b&amp;type=square" /></a>
+</div>
+</div>
+<div class='meta_details'>
+Diapositivas por <a class="user_link tex2jax_ignore " href="/es-ES/profiles/2000677">Elka Méndez</a>, actualizado  hace más de 1 año
+<a class='btn-all show_revision_audit hidden' href='#'>
+Más
+</a>
+<a class='btn-all hide_revision_audit hidden' href='#'>
+Menos
+</a>
+<div class='revision_audit'>
+<div class='meta_section revision_audit_list publicmeta_sub'>
+<table class='meta_revision'>
+<tr>
+<td class='avatar'>
+<img width="32" height="32" alt="Elka Méndez" title="Elka Méndez" src="https://graph.facebook.com/v8.0/10204155530963390/picture?access_token=482943618401238|1adfc51b75ff64d81695a61fae69ba1b&amp;type=square" />
+</td>
+<td class='details'>
+<div class='action'>
+Creado por <a class="user_link tex2jax_ignore " href="/es-ES/profiles/2000677">Elka Méndez</a>
+ hace alrededor de 5 años
+</div>
+</td>
+</tr>
+<tr>
+<td></td>
+<td class='date_action'></td>
+<td><div class='version'></div></td>
+</tr>
+
+</table>
+</div>
+
+</div>
+<div class='meta_stat_container'>
+<div class='meta_stat'>
+<div class='views' title='Visitas'>
+<span class='canonical_sprite bg-canonical-eye'></span>
+<span class='view_count'>
+170
+</span>
+</div>
+</div>
+<div class='meta_stat'>
+<div class='shares pin_resource' title='Pinear a…'>
+<span class='canonical_sprite bg-canonical-pin'></span>
+<span class='pinned_count'>
+0
+</span>
+</div>
+</div>
+<div class='meta_stat'>
+<a class="comments_link" href="#comments_panel"><div class='comments' title='Comentarios'>
+<span class='canonical_sprite bg-canonical-balloon_left'></span>
+<span class='comments_count'>
+0
+</span>
+</div>
+</a></div>
+<div class='meta_stat'>
+<div class='ratings' title='Valoración'></div>
+</div>
+</div>
+</div>
+</div>
+<div id='study_aid_description'>
+<div class='review_heading'>
+<div class='title'>
+<h3>Descripción</h3>
+</div>
+</div>
+<span class='description_text' itemprop='description'>
+Presentación
+</span>
+</div>
+<div>
+<div class='study_aid_tags'>
+<span class='sprite bg-icon-price_tag canonical_sprite bg-canonical-price_tag' title='Etiquetas'></span>
+<span class='no_tags_placeholder' style='display: none'>
+Sin etiquetas
+</span>
+<ul class='tag_list'>
+<li>
+<a rel="nofollow" target="_top" href="/es-ES/tags/tecnolog%25C3%25ADa">tecnología</a>
+</li>
+<li>
+<a rel="nofollow" target="_top" href="/es-ES/tags/%25C3%25A9tica">ética</a>
+</li>
+<li>
+<a rel="nofollow" target="_top" href="/es-ES/tags/etica+y+tecnolog%25C3%25ADa">etica y tecnología</a>
+</li>
+<li>
+<a rel="nofollow" target="_top" href="/es-ES/tags/etica+en+el+uso+de+la+tecnolog%25C3%25ADa">etica en el uso de la tecnología</a>
+</li>
+<li>
+<a rel="nofollow" target="_top" href="/es-ES/tags/1">1</a>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class='ad_section'>
+<div class='ad_unit hidden'>
+{&quot;ad_unit_id&quot;:&quot;App_Resource_Leaderboard&quot;,&quot;width&quot;:728,&quot;height&quot;:90,&quot;rtype&quot;:&quot;SlideSet&quot;,&quot;rmode&quot;:&quot;canonical&quot;,&quot;placement&quot;:1,&quot;sizes&quot;:&quot;[[[1200, 0], [[728, 90]]], [[0, 0], [[468, 60], [234, 60], [336, 280], [300, 250]]]]&quot;,&quot;custom&quot;:[{&quot;key&quot;:&quot;env&quot;,&quot;value&quot;:&quot;production&quot;},{&quot;key&quot;:&quot;rtype&quot;,&quot;value&quot;:&quot;SlideSet&quot;},{&quot;key&quot;:&quot;rmode&quot;,&quot;value&quot;:&quot;canonical&quot;},{&quot;key&quot;:&quot;placement&quot;,&quot;value&quot;:1},{&quot;key&quot;:&quot;sequence&quot;,&quot;value&quot;:1},{&quot;key&quot;:&quot;uauth&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;uadmin&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;ulang&quot;,&quot;value&quot;:&quot;es&quot;},{&quot;key&quot;:&quot;ucurrency&quot;,&quot;value&quot;:&quot;usd&quot;}]}
+</div>
+</div>
+<div class='summary_section boxed'>
+<div class='summary_content_wrapper'>
+<div class='titlebar'>
+<h2>Resumen del Recurso</h2>
+</div>
+<div class='content'>
+<div class='slide'>
+<h3>Diapositiva 1</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Ética e informática
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552398/desktop_0328cc90-ac98-40e1-87b2-9c6654e08050.png">0328cc90-ac98-40e1-87b2-9c6654e08050 (image/png)</a></span>
+</div>
+<div class='slide_propert'>
+Pie de foto: : El dilema ético del uso de la tecnología
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 2</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+El
+desarrollo de los sistemas informáticos y del Internet como una red de
+información que contiene millones de datos que no son regulados, al ser
+utilizados por las personas existe la posibilidad de un uso no ético de éstos.
+Su uso cada vez más intensivo ha generado nuevos dilemas éticos.
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552010/desktop_d6be948e-64d3-4702-b2af-71b7aee32ab7.gif">d6be948e-64d3-4702-b2af-71b7aee32ab7.gif (image/gif)</a></span>
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 3</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Para dilucidar estos dilemas es necesario partir de un marco conceptual proporcionado por la ética aplicada al campo de la tecnología.La ética informática: Es el análisis de la naturaleza y
+el impacto social de la tecnología informática y la correspondiente formulación
+y justificación de políticas para un uso ético de dicha tecnología; esta
+definición está relacionada con los problemas conceptuales y los vacíos en las
+regulaciones que ha ocasionado la tecnología de la información.Por esto la necesidad de establecer códigos de ética para el uso de la tecnología y la informática.
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552013/desktop_8c21336d-839d-4bcf-b9d3-ce3f21a37fb9.gif">8c21336d-839d-4bcf-b9d3-ce3f21a37fb9.gif (image/gif)</a></span>
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 4</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Este código
+de ética debe contemplarse desde dos perspectivas: una para los expertos que generan
+los sistemas y tienen la posibilidad de manipular la información y otra, para quienes
+los consultan y utilizan.
+
+¿La
+internet debe o no ser regulada?
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552015/desktop_c9e855a7-5ea9-4e3a-aaf5-4b4e11b4d7cb.gif">c9e855a7-5ea9-4e3a-aaf5-4b4e11b4d7cb.gif (image/gif)</a></span>
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 5</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Hay quienes
+afirman que la sobre regulación del Internet atenta en
+contra de la libertad de las personas; pero ¿qué pasa cuando esta libertad se
+utiliza para dañar a otros? Una directriz para concebir un código de ética para
+el uso de la informática y del Internet puede ser regular la tecnología para permitir que se fortalezcan nuestros derechos y se
+eviten los abusos partiendo de cuatro principios éticos clave:
+Intimidad
+exactitud
+Propiedad intelectual
+Accesibilidad
+
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 6</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Se pueden observar algunos principios básicos para regular el uso del Internet.
+No utilizar una computadora para dañar a otros.
+No indagar en los archivos ajenos.
+No utilizar una computadora para robar.
+No utilizar la informática para realizar fraudes.
+No copiar o utilizar software que no hayas comprado.
+No utilizar los recursos informáticos ajenos sin la debida autorización.
+No apropiarse de los derechos intelectuales de otros.
+Evaluar las consecuencias sociales de cualquier código que desarrolles.
+Utilizar las computadoras respetando los derechos de los demás.
+
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 7</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Internet
+debe servir a la gente en su ejercicio responsable de la libertad y la democracia,
+ampliar la gama de opciones realizables en diversas esferas de la vida,
+ensanchar los horizontes educativos y culturales, superar las divisiones y promover
+el desarrollo humano de múltiples modos. Como cualquier tecnología, los medios
+informáticos no son buenos ni malos, sí lo pueden ser las intenciones de las  personas que los utilizan.
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552023/desktop_6dd0e295-5835-41d0-8c55-f25478a9fba4.jpg">6dd0e295-5835-41d0-8c55-f25478a9fba4 (image/jpg)</a></span>
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 8</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Actuar con
+conciencia y formar la las nuevas generaciones en una sabiduría digital es
+indispensable para autoregularnos para un uso ético de la tecnología a partir
+de los siguientes conceptos:
+
+
+Netiquetta:
+Normas básicas de comportamiento en el ciber espacio.
+Netica:
+Criterios morales de la conducta en el ciber espacio.
+Huella
+digital: Datos personales que vamos dejando en el ciber espacio.
+Seguridad:
+Prácticas en el uso de la tecnología.
+
+</div>
+<div class='slide_propert'>
+<span><a rel="nofollow" href="https://cdn.goconqr.com/uploads/slide_property/image/552027/desktop_2178fdd2-b6aa-462a-842c-2d4cd1e81a59.gif">2178fdd2-b6aa-462a-842c-2d4cd1e81a59.gif (image/gif)</a></span>
+</div>
+</ul>
+</div>
+<div class='slide'>
+<h3>Diapositiva 9</h3>
+<ul class='slide_properties'>
+<div class='slide_propert'>
+Recursos consultados
+</div>
+<div class='slide_propert'>
+Castellón Beltrán, Aimel. 2006. Ética e Informática: factores claves del mundo moderno. Plusformación. Consultado en: https://upaep.blackboard.com/bbcswebdav/courses/25_102_MEL703_01/plusformacion.com-tica_e_Informtica_factores_claves_del_mundo_moderno.pdf. Fecha de la consulta, 09 de julio de 2016.Lara, J.C. 2016. Internet en México: Derechos Humanos en el entorno digital. Derechos Digitales. México. Consultado en: https://derechosdigitales.org/ Fecha de la consulta, 09 de julio de 2016.Molla, I.
+(2012) Acercamiento a la Comprensión de
+la Sabiduría Digital, Informe Técnico. Pontificia Universidad Católica del Perú.
+Consultado en: http://avatar.inf.pucp.edu.pe/web/wordpress/wp-content/uploads/2013/07/Informe_Sabio_Digital.pdf
+ Fecha de la consulta, 09 de julio
+de 2016.
+
+Prensky, M. (2009) H.
+Sapiens Digital: Desde los Inmigrantes y Nativos Digitales hasta la Sabiduría
+Digital. Consultado en: https://upaep.blackboard.com/bbcswebdav/pid-6894180-dt-content-rid-17742284_2/courses/25_111_MEL703_01/digitalwisdomtranslatedtospanishbymarianaaffronti-090622224955-phpapp02.pdf
+Fecha de la consulta, 09 de julio de 2016.
+
+
+
+ 
+</div>
+</ul>
+</div>
+</div>
+
+<div class='fade_out_overlay'></div>
+</div>
+<a class='show_full_summary btn btn-default'>
+Mostrar resumen completo
+</a>
+<a class='hide_full_summary btn btn-default'>
+Ocultar resumen completo
+</a>
+</div>
+
+<div class='comments_section boxed'>
+<div id='comments_panel'></div>
+</div>
+</div>
+<div id='suggestions_content'>
+<div class='suggestions_wrapper'>
+<div id='suggestions_list'>
+<h3>Similar</h3>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="10597112">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/mindmap/10597112/tendencias-tecnol-gicas-de-la-comunicaci-n"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images mind_map"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Tendencias Tecnológicas de la Comunicación</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/4614206">Nelsymar Millan</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="3817959">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/quiz/3817959/test-de-tica-y-tecnolog-a-"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images quiz"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Test de ética y tecnología </div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/1797179">Ana Maria Palacio</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="3814443">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/slide/3814443/-tica-y-tecnolog-a-"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images slide_set"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Ética y tecnología </div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/1797179">Ana Maria Palacio</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="1557447">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/flashcard/1557447/nietzsche-estudio-sobre-la-tica"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images flash_card_deck"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Nietzsche: Estudio sobre la Ética</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/4101">maya velasquez</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="1544585">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/flashcard/1544585/la-tica-seg-n-arist-teles-"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images flash_card_deck"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">La Ética según Aristóteles </div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/55049">Diego  Santos</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="1411792">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/mindmap/1411792/historia-de-la-tica"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images mind_map"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Historia de la Ética</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es/profiles/688782">hectorleyva</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="4361247">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/mindmap/4361247/-tica-y-responsabilidad-social"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images mind_map"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Ética y responsabilidad social</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es/profiles/2144047">Sofía Marin</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="2766299">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/mindmap/2766299/mapas-conceptuales"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images mind_map"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">MAPAS CONCEPTUALES</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es-ES/profiles/1402871">mario castro</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="1400421">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/quiz/1400421/formaci-n-c-vica-y-tica-i"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images quiz"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Formación Cívica y Ética I</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es/profiles/728039">ANTONIO ZUÑIGA GONZALEZ</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="1421061">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/flashcard/1421061/kant-y-la-tica-del-deber"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images flash_card_deck"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Kant y la ética del deber</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es/profiles/736238">JuanDZorrilla</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+<div class='suggestion'>
+<div class="resource-tile resource col-lg-
+  
+  
+  "
+  data-id="3248648">
+  <div class="resource-tile__content clearfix">
+    <a class="resource-tile__link" href="/quiz/3248648/unidad-3-la-tecnolog-a-digital"></a>
+    <div class="resource-tile__handles">
+      
+    </div>
+    
+    <div class="resource-tile__img">
+      <div class="link_images quiz"></div>
+    </div>
+    <div class="resource-tile__body">
+      <div class="resource-tile__title -truncate-text tex2jax_ignore">Unidad 3. La tecnología digital</div>
+        <span class="resource-tile__author -truncate-text">
+           <a href="/es/profiles/1280328">VICTOR SABINO HERNANDEZ</a>
+        </span>
+    </div>
+      <div class="tile_overlay"></div>
+  </div>
+</div>
+
+</div>
+
+</div>
+<div class='more'>
+<a href="/es-ES/library">Explorar la Librería</a>
+</div>
+<div class='clearfix'></div>
+</div>
+</div>
+</div>
+<div class='ad_section'>
+<div class='ad_unit hidden'>
+{&quot;ad_unit_id&quot;:&quot;App_Resource_Leaderboard&quot;,&quot;width&quot;:728,&quot;height&quot;:90,&quot;rtype&quot;:&quot;SlideSet&quot;,&quot;rmode&quot;:&quot;canonical&quot;,&quot;placement&quot;:2,&quot;sizes&quot;:&quot;[[[0, 0], [[970, 250], [970, 90], [728, 90]]]]&quot;,&quot;custom&quot;:[{&quot;key&quot;:&quot;env&quot;,&quot;value&quot;:&quot;production&quot;},{&quot;key&quot;:&quot;rtype&quot;,&quot;value&quot;:&quot;SlideSet&quot;},{&quot;key&quot;:&quot;rmode&quot;,&quot;value&quot;:&quot;canonical&quot;},{&quot;key&quot;:&quot;placement&quot;,&quot;value&quot;:2},{&quot;key&quot;:&quot;sequence&quot;,&quot;value&quot;:1},{&quot;key&quot;:&quot;uauth&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;uadmin&quot;,&quot;value&quot;:&quot;f&quot;},{&quot;key&quot;:&quot;ulang&quot;,&quot;value&quot;:&quot;es&quot;},{&quot;key&quot;:&quot;ucurrency&quot;,&quot;value&quot;:&quot;usd&quot;}]}
+</div>
+</div>
+</div>
+</div>
+<script nonce="iOkd2eVYE29X25Z0eyHGBw==">
+  $(document).ready(function(){
+    CANONICAL_STUDY_AID.init();
+  });
+</script>
+</div>
+
+</div>
+</div>
+<div class='examtime_application_footer' id='examtime_footer'>
+<footer>
+<div class='container'>
+<div class='row'>
+<div class='cols-xs-12 footer_links_container'>
+<div class='footer-links'>
+<ul class='nav nav-pills'>
+<li>
+<a href="/?mobile=1">Versión móvil</a>
+</li>
+<li>
+<a href="/es-ES/payments/compare">Planes</a>
+</li>
+<li>
+<a href="/es-ES/feedback">Escríbenos</a>
+</li>
+<li>
+<a href="https://www.goconqr.com/es/faq/34-Sobre-GoConqr?with_blurb=1">Preguntas Frecuentes</a>
+</li>
+<li>
+<a href="/es-ES/terms_and_conditions">Términos</a>
+</li>
+<li>
+<a href="/es-ES/privacy_policy">Privacidad</a>
+</li>
+<li>
+<a href="https://www.goconqr.com/es/info/publicidad">Publicítate</a>
+</li>
+<li>
+<a href="https://www.goconqr.com/es/blog">Blog</a>
+</li>
+<li>
+<a href="/directory/courses">Directorio</a>
+</li>
+<li>
+<button class='manage_consent'>
+Gestionar el consentimiento
+</button>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 footer-social-container'>
+<div class='footer-social-links'>
+<a href='https://www.facebook.com/SomosGoConqr' target='_blank' title='Síguenos en Facebook'>
+<div class='social_sprite bg-footer-icon_social_facebook_2x'></div>
+</a>
+<a href='https://twitter.com/goconqr_es' target='_blank' title='Síguenos en Twitter'>
+<div class='social_sprite bg-footer-icon_social_twitter_2x'></div>
+</a>
+<a href='http://www.linkedin.com/company/3278724' target='_blank' title='Conecta con nosotros en LinkedIn'>
+<div class='social_sprite bg-footer-icon_social_linkedin_2x'></div>
+</a>
+<a href='https://www.youtube.com/channel/UC9WiYC2_2mitJiHNBQHJRQg' target='_blank' title='Suscríbete a nuestro canal de YouTube'>
+<div class='social_sprite bg-footer-icon_social_youtube_2x'></div>
+</a>
+<a href='https://blog.goconqr.com/es/feed/' target='_blank' title='Sigue nuestro blog'>
+<div class='social_sprite bg-footer-icon_social_rss_2x'></div>
+</a>
+
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 footer-copyright-container'>
+<div class='l-copyright'>
+<ul class='regions'>
+<li>
+<a title="Portugués (Brasil)" href="/pt-BR"><div class='flag_sprite bg-footer-icon_flag_br_2x' title='Portugués (Brasil)'></div>
+</a></li>
+<li>
+<a title="Deutsch" href="/de"><div class='flag_sprite bg-footer-icon_flag_de_2x' title='Deutsch'></div>
+</a></li>
+<li>
+<a title="Español" href="/es"><div class='flag_sprite bg-footer-icon_flag_es_2x' title='Español'></div>
+</a></li>
+<li>
+<a title="Inglés" href="/en"><div class='flag_sprite bg-footer-icon_flag_en_2x' title='Inglés'></div>
+</a></li>
+</ul>
+
+<span class='copyright_text'>
+©
+2021
+ExamTime Ltd.
+</span>
+</div>
+</div>
+</div>
+
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>
